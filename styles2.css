@@ -1,0 +1,95 @@
+.users-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333; 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #007bff; 
+}
+
+input[type="submit"] {
+    display: block;
+    width: 106%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.users-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.users-table--edit{
+    background: #009688;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.users-table--delete{
+    background: #b11e1e;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.users-form {
+    width: 300px;
+    margin:  auto; 
+    padding: 80px;
+    background: linear-gradient(135deg, #FFD700, #00FF00); 
+    border-radius: 10px;
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+h2 {
+    color: #0a0808; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555; 
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #007bff;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #b06868;}
